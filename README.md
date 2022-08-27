@@ -3,4 +3,4 @@
 
 ![Filter, map and reduce on Delphi](img/cover.jpg)
 
-Exemplo utilizando funções anônimas genêricas.
+Example using generic anonymous functions in Delphi
