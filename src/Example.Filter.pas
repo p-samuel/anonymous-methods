@@ -37,10 +37,10 @@ var
 begin
   //Números múltiplos de 3
   Numeros := TArray<Integer>.Create(1, 3, 4, 5, 6, 14, 15, 17, 22, 23, 25, 32);
-//  Filtro := TUtil.Filter<Integer>(Numeros, function (Numero: Integer): Boolean
-//  begin
-//    Result := (Numero mod 3 = 0);
-//  end);
+  Filtro := TUtil.Filter<Integer>(Numeros, function (Numero: Integer): Boolean
+  begin
+    Result := (Numero mod 3 = 0);
+  end);
 
   for Numero in Filtro do
     Write(Numero.ToString + ', ');
