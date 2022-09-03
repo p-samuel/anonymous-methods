@@ -91,11 +91,15 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
+        <DCCReference Include="src\Draft.pas"/>
         <DCCReference Include="src\Utils.pas"/>
         <DCCReference Include="src\Example.Map.pas"/>
         <DCCReference Include="src\Example.Reduce.pas"/>
         <DCCReference Include="src\Example.Filter.pas"/>
-        <DCCReference Include="src\Draft.pas"/>
+        <DCCReference Include="src\Example.Every.pas"/>
+        <DCCReference Include="src\Example.Some.pas"/>
+        <DCCReference Include="src\Example.Find.pas"/>
+        <DCCReference Include="src\Example.ForEach.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
