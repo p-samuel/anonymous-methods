@@ -3,4 +3,5 @@
 
 ![Filter, map and reduce on Delphi](img/cover.jpg)
 
-Example using generic anonymous functions in Delphi
+
+In this sample, I tried to demonstrate by using generic anonymous methods, how to simulate some main JavaScript's array utilities functions in Delphi Pascal language.
