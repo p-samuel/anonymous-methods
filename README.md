@@ -1,6 +1,3 @@
-# delphi-anonymous-methods
-
-
 In this sample, I tried to demonstrate how to simulate some main JavaScript's array utilities functions in Delphi Pascal language by using generic anonymous methods.
 
 ## Filter
